@@ -1,6 +1,12 @@
 # gitpod-workspace
 
-All-in-one configuration for a Gitpod workspace.
+Bare-bones installation for a Gitpod workspace.
+
+After launching, make sure to run:
+
+~~~
+./setup.sh
+~~~
 
 # References
 
