@@ -1,4 +1,4 @@
-# Run this script when the workspace initializes.
+# Run this script after the workspace initializes.
 
 #!/usr/bin/env bash
 
