@@ -4,3 +4,7 @@
 # Editor files
 .idea
 *.iml
+
+# Gitpod files
+workspace/*
+!workspace/README.md

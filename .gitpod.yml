@@ -1,0 +1,6 @@
+image:
+  file: Dockerfile
+
+# Optional ports to expose on workspace startup.
+ports:
+  - port: 8080
