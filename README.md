@@ -1,6 +1,6 @@
 # gitpod-workspace
 
-Bare-bones installation for a Gitpod workspace.
+Simple installation for a Gitpod workspace.
 
 After launching, make sure to run:
 
