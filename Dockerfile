@@ -40,5 +40,8 @@ ENV PATH="/usr/lib:/usr/lib/go/bin:$PATH"
 RUN curl https://cli-assets.heroku.com/install.sh | sh
 RUN heroku plugins:install heroku-accounts
 
+RUN chgrp gitpod -R $HOME/.cache/heroku
+RUN chown gitpod -R $HOME/.cache/heroku
+
 RUN curl -L https://get.rvm.io | bash -s stable
 RUN usermod -a -G rvm gitpod
