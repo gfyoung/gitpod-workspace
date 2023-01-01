@@ -3,6 +3,7 @@
 
 # Editor files
 .idea
+.vscode
 *.iml
 
 # Gitpod files
